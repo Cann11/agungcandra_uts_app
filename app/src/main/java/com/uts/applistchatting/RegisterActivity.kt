@@ -75,7 +75,7 @@ class RegisterActivity : AppCompatActivity() {
         // Tombol kembali
         backButton.setOnClickListener {
             Log.d(TAG, "Tombol kembali diklik")
-            onBackPressed()
+            onBackPressedDispatcher.onBackPressed()
         }
     }
 }

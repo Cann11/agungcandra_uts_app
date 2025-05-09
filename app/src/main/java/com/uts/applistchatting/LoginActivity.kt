@@ -59,7 +59,7 @@ class LoginActivity : AppCompatActivity() {
 
         backButton.setOnClickListener {
             Log.d(TAG, "Tombol kembali diklik")
-            onBackPressed()
+            onBackPressedDispatcher.onBackPressed()
         }
     }
 }
