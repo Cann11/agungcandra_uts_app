@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppListChatting</string>
+    <string-array name="status_array">
+        <item>Berlangsung</item>
+        <item>Selesai</item>
+    </string-array>
+
+</resources>
